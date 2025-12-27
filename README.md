@@ -7,13 +7,6 @@ Built with the tools and technologies:
 Express JSON Markdown npm Autoprefixer Mongoose PostCSS
 .ENV JavaScript React Vite ESLint Axios
 
-Table of Contents
-Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
 Overview
 Bookstore is a full-stack web application framework that streamlines the development of scalable, high-performance online bookstores using React, Vite, Tailwind CSS, and Node.js. It combines modern tooling with a robust backend architecture to deliver a seamless developer experience.
 
