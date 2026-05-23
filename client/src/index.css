@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Premium Light Mode Color Harmonization Override System */
+.light-theme {
+  background-color: #fafafa !important;
+  color: #18181b !important;
+}
+
+.light-theme body,
+.light-theme .bg-zinc-900,
+.light-theme .bg-zinc-950,
+.light-theme .min-h-screen {
+  background-color: #fafafa !important;
+  color: #18181b !important;
+}
+
+.light-theme .bg-zinc-850,
+.light-theme .bg-zinc-900\/60,
+.light-theme .bg-zinc-900\/80 {
+  background-color: #ffffff !important;
+  border-color: #e4e4e7 !important;
+  color: #18181b !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02) !important;
+}
+
+.light-theme .bg-zinc-950\/70 {
+  background-color: rgba(250, 250, 250, 0.8) !important;
+}
+
+.light-theme .border-zinc-750\/50,
+.light-theme .border-zinc-800\/80,
+.light-theme .border-zinc-800\/60,
+.light-theme .border-zinc-750\/30,
+.light-theme .border-zinc-800 {
+  border-color: #e4e4e7 !important;
+}
+
+.light-theme .text-zinc-100,
+.light-theme .text-zinc-50,
+.light-theme .text-zinc-200,
+.light-theme .text-white {
+  color: #18181b !important;
+}
+
+.light-theme .text-zinc-400,
+.light-theme .text-zinc-300 {
+  color: #52525b !important;
+}
+
+.light-theme input,
+.light-theme textarea,
+.light-theme select {
+  background-color: #ffffff !important;
+  border-color: #d4d4d8 !important;
+  color: #18181b !important;
+}
+
+.light-theme input::placeholder,
+.light-theme textarea::placeholder {
+  color: #a1a1aa !important;
+}
+
+.light-theme .bg-zinc-950 {
+  background-color: #f4f4f5 !important;
+}
+
+.light-theme .text-amber-400 {
+  color: #d97706 !important; /* amber-600 */
+}
+
+.light-theme .bg-zinc-900\/80 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Light Theme Interactive Navbar Hover Overrides */
+.light-theme .hover\:bg-zinc-800\/60:hover {
+  background-color: rgba(228, 228, 231, 0.6) !important; /* soft zinc-200 */
+  color: #18181b !important;
+}
+
+.light-theme .hover\:text-zinc-50:hover {
+  color: #18181b !important;
+}
+
+.light-theme .hover\:bg-zinc-800\/80:hover {
+  background-color: rgba(228, 228, 231, 0.8) !important;
+}
+
+.light-theme .dark-toggle-btn {
+  background-color: #e4e4e7 !important; /* bg-zinc-200 */
+  border-color: #d4d4d8 !important; /* border-zinc-300 */
+}
+
+/* Logo Text Gradient Override for Light Theme */
+.light-theme .nav-logo-text {
+  background-image: linear-gradient(to right, #18181b, #3f3f46) !important;
+}
