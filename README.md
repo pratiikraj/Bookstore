@@ -4,10 +4,6 @@ A full-stack, premium bookstore web application built using the MERN stack (Mong
 
 ---
 
-
-
----
-
 ## 🚀 Key Features
 
 * **Vibrant Dark Theme UI**: Beautiful, interactive modern dark user interface.
