@@ -66,6 +66,4 @@ app.listen(port,(err)=>{
     console.log(`server started at ${port}`); 
 })
 
-// app.get("/",(req,res)=>{
-//     res.send("hrllo");
-// })
+module.exports = app;
