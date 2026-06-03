@@ -3,7 +3,14 @@
 A full-stack, premium bookstore web application built using the MERN stack (MongoDB, Express, React, Node.js). The application offers a polished dark theme UI, comprehensive book inventory management, customized cart and order processing, and administrative dashboards.
 
 ---
+## 🔗 Live Demo (Render Fallback)
 
+Due to billing/trial limitations on the Vercel Team account, the application can be deployed for free on **Render**:
+
+* **Live Frontend App (Render):** [https://bookstore-frontend-app.onrender.com](https://bookstore-frontend-app.onrender.com)
+* **Live Backend API (Render):** [https://bookstore-backend-api.onrender.com](https://bookstore-backend-api.onrender.com)
+
+---
 ## 🚀 Key Features
 
 * **Vibrant Dark Theme UI**: Beautiful, interactive modern dark user interface.

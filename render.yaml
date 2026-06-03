@@ -1,0 +1,25 @@
+services:
+  # Express Backend API
+  - type: web
+    name: bookstore-backend-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: DB_URL
+        sync: false
+      - key: NODE_ENV
+        value: production
+
+  # React Frontend (Static Site)
+  - type: static
+    name: bookstore-frontend-app
+    rootDir: client
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://bookstore-backend-api.onrender.com
