@@ -4,6 +4,13 @@ A full-stack, premium bookstore web application built using the MERN stack (Mong
 
 ---
 
+## 🔗 Live Demo
+
+* **Live Frontend App:** [https://client-three-nu.vercel.app](https://client-three-nu.vercel.app)
+* **Live Backend API:** [https://backend-nine-sepia-53.vercel.app](https://backend-nine-sepia-53.vercel.app)
+
+---
+
 ## 🚀 Key Features
 
 * **Vibrant Dark Theme UI**: Beautiful, interactive modern dark user interface.
